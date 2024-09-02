@@ -1,0 +1,5 @@
+package com.sandun.app.webSocket;
+
+public enum RequestResponseType {
+    REGISTER, CREATE_A_SESSION, JOIN_TO_SESSION, CLOSE_A_SESSION, FILE_SHARE_START_UP, FILE_SHARE_START_UP_STATUS, SHARING, FINISH_SHARING;
+}
